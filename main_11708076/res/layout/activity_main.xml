@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="50dp">
+
+
+    <com.example.custom_view.checkbox_custom
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="inherit"
+        android:layout_gravity="center"
+        app:isChecked="true"
+        app:setText1="checkbox"
+
+
+        />
+    <com.example.custom_view.radiobtn_custom
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:settext2="radio button"
+        android:layout_gravity="center"
+        app:setColor2="true"
+        android:layout_marginTop="20dp"/>
+
+    <com.example.custom_view.Button_custom
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:setText="Button"
+        android:textSize="24dp"
+        app:setColor="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="btnclk"
+
+        />
+
+
+</LinearLayout>
